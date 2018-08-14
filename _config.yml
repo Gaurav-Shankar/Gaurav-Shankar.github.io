@@ -1,7 +1,7 @@
-title: Your awesome title
-name: Your Name
-email: your-email@example.com
-description: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+title: Gaurav Shankar
+name: SDET
+email: gaurav.shankar19@gmail.com
+description: Hi! I'm Gaurav Shankar. 
 
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
@@ -118,7 +118,7 @@ skills:
   - name: ruby
   - name: rubymine
   - name: safari
-  - name: sass
+  - name: selenium
   - name: sequelize
   - name: slack
   - name: sourcetree
@@ -126,20 +126,11 @@ skills:
   - name: swift
   - name: symfony
   - name: tomcat
-  - name: travis
-  - name: trello
   - name: twitter
-  - name: typescript
   - name: ubuntu
   - name: vim
-  - name: visualstudio
-  - name: vuejs
-  - name: webpack
-  - name: webstorm
   - name: windows8
-  - name: wordpress
-  - name: yii
-  - name: zend
+
 
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
