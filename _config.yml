@@ -125,7 +125,6 @@ skills:
   - name: ssh
   - name: swift
   - name: symfony
-  - name: tomcat
   - name: twitter
   - name: ubuntu
   - name: vim
