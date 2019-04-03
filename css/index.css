@@ -3,7 +3,7 @@
 body {
   font-family: 'VT323', monospace;
   width: 100%;
-  background-color: #dbcdc6;
+  background-color: #eeeeee;
 }
 
 p {
@@ -12,16 +12,13 @@ p {
   font-size: 20px;
 }
 
-.purple {
-  background-color: #651fff;
-}
-
-.blue {
-  background-color: #ff8f00;
-}
-
-.green {
-  background-color: #4caf50;
+.links a {
+  font-size: 90px;
+  padding: 0px 8px;
+  text-decoration: none;
+  margin-left: 650px;
+  margin-bottom:500px;
+  color: #444;
 }
 
 #name {
@@ -59,8 +56,8 @@ p {
 }
 
 .letter:hover {
-  animation: mymove infinite 1s;
-  color: red;
+  animation: mymove infinite 0.5s;
+  color:purple;
 }
 
 
@@ -74,10 +71,6 @@ p {
     100% {
       top: 0px;
   }
-}
- 
-.hovered {
-  animation: mymove 1s;
 }
 
 ::selection {
