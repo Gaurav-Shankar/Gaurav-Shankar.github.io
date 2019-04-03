@@ -4,6 +4,7 @@ body {
   font-family: 'VT323', monospace;
   width: 100%;
   background-color: #eeeeee;
+  overflow: hidden;
 }
 
 p {
