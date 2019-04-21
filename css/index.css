@@ -10,16 +10,20 @@ body {
 p {
   margin-left: 470px;
   margin-bottom: -10px;
-  font-size: 20px;
+  font-size: 184px;
+}
+
+.links{
+  margin-left: 454px;
+  margin-top: 30px;
 }
 
 .links a {
-  font-size: 90px;
-  padding: 0px 8px;
-  text-decoration: none;
-  margin-left: 650px;
-  margin-bottom:500px;
-  color: #444;
+    font-size: 45px;
+    padding: 0px 8px;
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
 }
 
 #name {
@@ -42,7 +46,6 @@ p {
 .letter {
   font-size: 200px;
   line-height: 110px;
-/*   font-family: 'Lato', sans-serif; */
   font-weight: 800;
   letter-spacing: 5px;
   mix-blend-mode: color-burn;
@@ -53,7 +56,7 @@ p {
 }
 
 .a {
-  margin-left: 400px;
+  margin-left: 40px;
 }
 
 .letter:hover {
