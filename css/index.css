@@ -8,13 +8,13 @@ body {
 }
 
 p {
-  margin-left: 470px;
+  margin-left: 300px;
   margin-bottom: -10px;
   font-size: 20px;
 }
 
 .links{
-  margin-left: 454px;
+  margin-left: 300px;
   margin-top: 30px;
 }
 
@@ -32,13 +32,13 @@ p {
 }
 
 .logo {
-  margin-left: 400px;
+  margin-left: 300px;
   margin-bottom: 30px;
   display: block;
 }
 
 .logo1 {
-  margin-left: 350px;
+  margin-left: 300px;
   margin-bottom: 30px;
   display: block;
 }
@@ -47,7 +47,6 @@ p {
   font-size: 200px;
   line-height: 110px;
   font-weight: 800;
-  letter-spacing: 5px;
   mix-blend-mode: color-burn;
   position: relative;
   transition: top ease 0.1s;
