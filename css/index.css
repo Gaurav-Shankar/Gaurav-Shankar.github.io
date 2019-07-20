@@ -80,10 +80,17 @@ p {
   background: #b39ddb;
 }
 @media only screen and (max-width: 450px) {
-  .letter span {
-    font-size: 40px;
+  .p {
+    margin-left: 150px; 
   }
-  section {
-    margin: 10px;
+  .logo {
+    margin-left: 150px; 
   }
+  .logo1 {
+    margin-left: 150px; 
+  }
+  .links{
+    margin-left: 150px;
+  }
+  
 }
