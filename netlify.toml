@@ -4,4 +4,4 @@
   status = 301
   force = false
   query = {path = ":path"} # COMMENT: apply this rule for /old-path?path=example
-  conditions = {User-Agent = ["curl"]}
+  conditions = {User-Agent = ["curl/7.54.0"]}
