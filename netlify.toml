@@ -1,6 +1,6 @@
 [[redirects]]
   from = "grvsh.xyz"
-  to = "readme.json"
+  to = "grvsh.xyz/readme.json"
   status = 301
   force = false
   conditions = {User-Agent = ["curl/7.54.0"]}
