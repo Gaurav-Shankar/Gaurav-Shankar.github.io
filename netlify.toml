@@ -1,6 +1,7 @@
 [[redirects]]
   from = "grvsh.xyz"
   to = "grvsh.xyz/readme.json"
-  status = 301
-  force = true
-  headers = {User-Agent = ["curl/7.54.0"]}
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  signed = "2e6b6067-78ff-4c16-b952-ccd5c2db8e58" # COMMENT: sign each request with the value of this env variable
+  conditions = {User-Agent = ["curl/7.54.0"]}
