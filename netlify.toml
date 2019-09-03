@@ -2,5 +2,5 @@
   from = "grvsh.xyz"
   to = "grvsh.xyz/readme.json"
   status = 301
-  force = false
-  conditions = {User-Agent = ["curl/7.54.0"]}
+  force = true
+  headers = {User-Agent = ["curl/7.54.0"]}
