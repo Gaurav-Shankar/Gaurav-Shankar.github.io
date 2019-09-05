@@ -1,8 +1,8 @@
-exports.handler = async (event, context) => {
+exports.handler = (event, context, callback) => {
 
     const redirectUrl = 'https://grvsh.xyz/readme.json'
     var loc =  event.user_agent;
-    if (loc.includes("curl")) { 
+    if (loc === "curl/7.54.0") { 
     return {
       statusCode: 302,
       headers: {
