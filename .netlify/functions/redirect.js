@@ -12,4 +12,7 @@ exports.handler = async (event, context) => {
       body: JSON.stringify({})
     }
   }
+  else{
+      console.log("Coming soon....")
+  }
 }
