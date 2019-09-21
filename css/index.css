@@ -3,48 +3,28 @@
 body {
   font-family: 'VT323', monospace;
   width: 100%;
-  background-color: #eeeeee;
+  background-color: #A9A9A9;
   overflow: hidden;
 }
 
-p {
-  margin-left: 300px;
-  margin-bottom: -10px;
-  font-size: 20px;
-}
-
-.links{
-  margin-left: 300px;
-  margin-top: 30px;
-}
-
-.links a {
-    font-size: 45px;
-    padding: 0px 8px;
-    text-decoration: none;
-    color: #333333;
-    text-align: center;
-}
-
-#name {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
 .logo {
-  margin-left: 300px;
-  margin-bottom: 30px;
   display: block;
+  flex-direction: column;
+	min-height: 10vh;
+	justify-content: center;
+  text-align: center;
 }
 
 .logo1 {
-  margin-left: 300px;
-  margin-bottom: 30px;
   display: block;
+  flex-direction: column;
+	min-height: 20vh;
+	justify-content: center;
+  text-align: center;
 }
 
 .letter {
-  font-size: 200px;
+  font-size: 150px;
   line-height: 110px;
   font-weight: 800;
   mix-blend-mode: color-burn;
@@ -54,15 +34,37 @@ p {
   opacity: 0.9;
 }
 
-.a {
-  margin-left: 40px;
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.links{
+  text-align: center;
+}
+
+.links a {
+    font-size: 45px;
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+    color:green;
+}
+
+#name {
+  margin-top: 150px;
+  margin-bottom: 30px;
 }
 
 .letter:hover {
   animation: mymove infinite 0.5s;
-  color:purple;
+  color:green;
 }
 
+.links a:hover {		
+  transform: rotate(350deg);
+	transition: transform 0.25s ease-in-out;
+}		
 
 @keyframes mymove {
     0% {
@@ -74,23 +76,4 @@ p {
     100% {
       top: 0px;
   }
-}
-
-::selection {
-  background: #b39ddb;
-}
-@media only screen and (max-width: 450px) {
-  .p {
-    margin-left: 150px; 
-  }
-  .logo {
-    margin-left: 150px; 
-  }
-  .logo1 {
-    margin-left: 150px; 
-  }
-  .links{
-    margin-left: 150px;
-  }
-  
 }
