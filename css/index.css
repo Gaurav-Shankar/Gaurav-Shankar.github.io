@@ -3,7 +3,7 @@
 body {
   font-family: 'VT323', monospace;
   width: 100%;
-  background-color: #A9A9A9;
+  background-color: #131212;
   overflow: hidden;
 }
 
@@ -37,6 +37,7 @@ body {
 p {
   font-size: 30px;
   text-align: center;
+  color: #e6932a;
 }
 
 .links{
@@ -52,8 +53,9 @@ p {
 }
 
 #name {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   margin-bottom: 30px;
+  color: #76f776;
 }
 
 .letter:hover {
