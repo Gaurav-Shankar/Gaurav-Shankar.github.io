@@ -32,7 +32,6 @@ body {
   transition: top ease 0.1s;
   transition-delay: 2s;
   opacity: 0.9;
-  color: green;
 }
 
 p {
